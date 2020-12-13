@@ -1,0 +1,22 @@
+{
+    "name": "shonchan/php-mvc-framevork",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aleksandr Shaforostov",
+            "email": "czero57@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "App\\core\\": "./core",
+          "App\\controllers\\": "./controllers",
+          "App\\models\\": "./models"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "5.2.x-dev",
+        "shonchan/php-mvc-core": "1.0.2"
+    }
+}
